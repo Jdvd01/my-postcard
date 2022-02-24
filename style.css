@@ -1,0 +1,62 @@
+body {
+    font-family: 'Gideon Roman', cursive;
+    color: solid black;
+    font-weight: bold;
+    margin: 0px;
+    height: 500px;
+}
+main {
+    border: solid black;
+    width: 450px;
+    height: 280px;
+    padding: 10px;
+    margin: auto;
+}
+.arriba {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.titulo {
+    font-size: x-large;
+    color: solid black;
+    padding: 10px 0px 0px 10px;
+}
+.logo {
+    height: 70px;
+    width: 70px;
+}
+.texto {
+    padding-left: 10px;
+    margin: 0px;
+
+}
+.customimput {
+    color: black;
+    margin: 0px 20px 5px 0px;
+    border: 0px;
+    border-bottom: 1px solid gray;
+}
+.abajo {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.boton {
+    background-color: gray;
+    width: 135px;
+    height: 25px;
+    margin: 5px auto 0px auto;
+    border: 2px solid gray;
+    border-color: gray black black gray;
+    padding: 5px 0px 0px 5px;
+}
+.bot {
+    text-decoration: none;
+    color: black;
+}
+.boton:active {
+    color: black;
+    border: 2px solid gray;
+    border-color: black gray gray black;
+}
