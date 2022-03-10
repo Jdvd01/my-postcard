@@ -2,13 +2,14 @@ body {
     font-family: 'Gideon Roman', cursive;
     color: solid black;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    height: 100vh;
     margin: 0px;
-    height: 500px;
 }
 main {
     border: solid black;
     width: 450px;
-    height: 280px;
     padding: 10px;
     margin: auto;
 }
